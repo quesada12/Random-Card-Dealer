@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.tarjeta {
+  background: white;
+  width: 350px;
+  height: 500px;
+}
+
+.simboloArriba {
+  height: 150px;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  flex-direction: column;
+  font-size: 100px;
+  text-align: start;
+}
+
+.numero {
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 120px;
+  text-align: center;
+}
+
+.simboloAbajo {
+  height: 150px;
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  flex-direction: column;
+  font-size: 100px;
+  text-align: start;
+  transform: rotate(180deg);
+}
